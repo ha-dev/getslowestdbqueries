@@ -11,6 +11,7 @@ func PublicRoutes(a *fiber.App) {
 	route := a.Group("/api/v1")
 
 	// Routes for GET method:
-	route.Get("list", controllers.GetQuerys) // get list of all slowest queries
+	route.Get("list", controllers.GetQuerys)                             // get list of all slowest queries
+	route.Post("AddQueryForCheck", controllers.AddQuerysForCheckSlowest) // Get Querys For Check Slowest
 
 }

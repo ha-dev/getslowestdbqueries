@@ -17,7 +17,6 @@ func RunServer() {
 	routes.PublicRoutes(app)
 	routes.NotFoundRoute(app)
 
-	// app.Get("/api/list", Handler.GetQuery)
 	log.Fatal(app.Listen(env.ServicePort))
 
 }
