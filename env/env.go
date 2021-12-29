@@ -9,4 +9,4 @@ const Db_host = "localhost"
 const Db_port = "5432"
 
 //
-const PivotTimetoCheckSlowesQuery = 0 // Milisecond
+const PivotTimetoCheckSlowesQuery = 1 // Milisecond
