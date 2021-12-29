@@ -20,6 +20,12 @@ Support filtering by SELECT,INSERT,UPDATE,DELETE on Get List Slowest Querys
 
 Support sorting by time spent Slowest Querys
 
+## Route Unit test
+
+If you want to run unit test for sure API work please run two golang unit test function in
+
+pkg\routes\public_route_test.go
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
